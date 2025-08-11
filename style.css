@@ -1,0 +1,95 @@
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+}
+
+body {
+    background: linear-gradient(#63577F, #F26419, #63577F);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    align-items: center;
+}
+
+#content1 {
+    width: 100%;
+    padding-top: var(--main-padding);
+    border-radius: var(--main-radius);
+    background-color: #121a1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; /* center text uvnitř obsahu */
+}
+
+footer {
+    width: 100%;
+    height: 1rem;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    background-color: #121a1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* mezera mezi obsahem a footerem */
+    text-align: center; /* centrovat text v footeru */
+}
+
+img {
+
+width: 750px;
+
+}
+
+/* Ponechám styly nadpisů beze změny, pokud chceš, můžeš je přidat do centra */
+h1, h2, h5 {
+    font-family: roboto;
+    font-weight: 400;
+    color: #a5a6a2;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    /* Upraví velikost obrázků pro mobily */
+    img {
+        width: 100%;
+        max-width: 100%; /* aby se vešel na menších zařízeních */
+    }
+    /* Přizpůsobení paddingu nebo velikostí textu, pokud chceš */
+    #content1 {
+        padding: var(--main-padding);
+    }
+    footer {
+        padding: var(--main-padding);
+        font-size: 0.8em; /* menší text ve footru na mobilech */
+    }
+}
+
+/* Breakpoint pro tablety a větší zařízení do 992px */
+@media screen and (max-width: 992px) {
+    /* Přizpůsobení obrázků nebo dalších stylů pro tablety */
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+    /* Další úpravy podle potřeby, například změna paddings nebo fontů */
+    #content1 {
+        padding: var(--main-padding);
+    }
+    footer {
+        padding: var(--main-padding);
+        font-size: 0.9em; /* mírně menší text */
+    }
+}
