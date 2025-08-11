@@ -201,3 +201,36 @@ a {
         font-size: 0.8em; /* menší text ve footru na mobilech */
     }
 }
+
+
+@media screen and (max-width: 400px) {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 345px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    align-items: center;
+}
+
+
+    img {
+        width: 300px;
+        height: auto;
+        
+    }
+
+    iframe {
+
+        width: 300px;
+        height: auto;
+    }
+    
+    #content1 {
+        padding: var(--main-padding);
+    }
+    footer {
+        padding: var(--main-padding);
+        font-size: 0.8em; /* menší text ve footru na mobilech */
+    }
+}
