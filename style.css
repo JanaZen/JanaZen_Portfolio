@@ -205,20 +205,20 @@ a {
     display: flex;
     flex-direction: column;
     
-    max-width: 450px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    max-width: 320px; /* nebo jakákoliv maximální šířka, pokud chceš */
     align-items: center;
 }
 
 
     img {
-        width: 200px;
+        width: 300px;
         height: auto;
         
     }
 
     iframe {
 
-        width: 200px;
+        width: 300px;
         height: auto;
     }
     
