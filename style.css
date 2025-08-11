@@ -205,7 +205,7 @@ a {
     display: flex;
     flex-direction: column;
     
-    max-width: 320px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    max-width: 345px; /* nebo jakákoliv maximální šířka, pokud chceš */
     align-items: center;
 }
 
