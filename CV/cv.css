@@ -69,6 +69,7 @@ h2 {
          font-size: 24px;
         font-weight: 400;
         color: #a5a6a2;
+        text-decoration: underline;
 
 }
 
@@ -104,6 +105,14 @@ a {
 
 
 }
+
+
+a:hover {
+
+   color: #ff00e1;
+
+}
+
 
 @media screen and (max-width: 1200px) {
 
