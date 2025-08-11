@@ -42,7 +42,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px; /* mezera mezi obsahem a footerem */
+    margin-top: 5px; /* mezera mezi obsahem a footerem */
     text-align: center; /* centrovat text v footeru */
 }
 
@@ -104,30 +104,21 @@ a {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
 
 .container {
     display: flex;
     flex-direction: column;
     
-    max-width: 480px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    max-width: 890px; /* nebo jakákoliv maximální šířka, pokud chceš */
     align-items: center;
 }
 
 
-    
-
-   
     img {
-        width: 360px;
+        width: 750px;
         height: auto;
         
-    }
-
-    iframe {
-
-        width: 450px;
-        height: auto;
     }
     
     #content1 {
@@ -139,3 +130,70 @@ a {
     }
 }
 
+@media screen and (max-width: 992px) {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 600px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    align-items: center;
+}
+
+
+    img {
+        width: 500px;
+        height: auto;
+        
+    }
+
+    iframe {
+
+        width: 640px;
+        height: auto;
+
+
+
+    }
+    
+    #content1 {
+        padding: var(--main-padding);
+    }
+    footer {
+        padding: var(--main-padding);
+        font-size: 0.8em; /* menší text ve footru na mobilech */
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 450px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    align-items: center;
+}
+
+
+    img {
+        width: 360px;
+        height: auto;
+        
+    }
+
+    iframe {
+
+        width: 360px;
+        height: auto;
+    }
+    
+    #content1 {
+        padding: var(--main-padding);
+    }
+    footer {
+        padding: var(--main-padding);
+        font-size: 0.8em; /* menší text ve footru na mobilech */
+    }
+}
