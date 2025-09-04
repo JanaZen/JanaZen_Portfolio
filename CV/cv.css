@@ -23,6 +23,13 @@ body {
     
 }
 
+#lottie-container {
+  width: 700px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
 #content1 {
     width: 100%;
     padding-top: var(--main-padding);
@@ -253,6 +260,13 @@ a:hover {
         font-size: 0.8em; /* menší text ve footru na mobilech */
     }
 
+    #lottie-container {
+    max-width: 350px;
+    width: 100%;  /* aby se hezky přizpůsobil */
+    height: auto; /* výška se dopočítá podle animace */
+  }
+}
+
 
     h1 {
 
@@ -272,4 +286,3 @@ a:hover {
         }
 
 
-}
