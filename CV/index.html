@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="cv.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
 </head>
+
 <body>
 
 <div class="container">
@@ -18,7 +19,7 @@
 
     <img src="images/fotka_witch2.jpg" alt="">
     <br>
-</video>
+    <div id="lottie-container" style="width:1200px; height:200px;"></div>  
     <br>
     <h1>Jsem designérka s profesionálním zázemím a více než 18 lety zkušeností v oblasti grafického designu, tisku, 
         vizuální tvorby a digitálního marketingu. Poslední rok se intenzivně rozvíjím v oblasti UX/UI a Motion designu, 
@@ -78,7 +79,15 @@
 
 </footer>
 
-
+  <script>
+    lottie.loadAnimation({
+      container: document.getElementById('lottie-container'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'linka.json' // název tvého JSON souboru
+    });
+  </script>
 
 
 </body>
