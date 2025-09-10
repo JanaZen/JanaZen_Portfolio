@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jana Zen_Portfolio</title>
     <link rel="stylesheet" href="style.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
 
 </head>
 <body>
@@ -20,7 +21,9 @@
 
  <div>
 
-            <h2>Animation in After Effects</h2>     
+            <h2>Animation in After Effects</h2>    
+            
+            <div id="lottie-container"></div> 
 
             <iframe src="https://player.vimeo.com/video/1109063535?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
@@ -139,6 +142,16 @@
 </div>
 
 </footer>
+
+  <script>
+    lottie.loadAnimation({
+      container: document.getElementById('lottie-container'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'linka.json' // název tvého JSON souboru
+    });
+  </script>
     
 </body>
 </html>
