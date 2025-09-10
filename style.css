@@ -29,6 +29,13 @@ body {
   margin: 0 auto;
 }
 
+#lottie-container2 {
+  width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 #content1 {
     width: 100%;
     padding-top: var(--main-padding);
@@ -259,6 +266,11 @@ a:hover {
 
 
      #lottie-container {
+    width: 345px;
+    height: 50px;
+  }
+
+       #lottie-container2 {
     width: 345px;
     height: 50px;
   }
