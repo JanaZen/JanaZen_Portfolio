@@ -148,6 +148,21 @@ a:hover {
         height: auto;
         
     }
+
+    #lottie-container {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container2 {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
     
     #content1 {
         padding: var(--main-padding);
