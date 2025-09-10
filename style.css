@@ -294,18 +294,7 @@ a:hover {
     }
 
 
-     #lottie-container {
-    width: 345px;
-    height: 50px;
-  }
-
-       #lottie-container2 {
-    width: 345px;
-    height: 50px;
-  }
-
-    
-    #content1 {
+#content1 {
         padding: var(--main-padding);
     }
     footer {
