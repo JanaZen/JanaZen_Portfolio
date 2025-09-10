@@ -21,6 +21,20 @@ body {
     align-items: center;
 }
 
+#lottie-container {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container2 {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 
 #content1 {
     width: 100%;
@@ -150,14 +164,14 @@ a:hover {
     }
 
     #lottie-container {
-  width: 700px;
+  width: 650px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
 #lottie-container2 {
-  width: 700px;
+  width: 650px;
   height: auto;
   display: block;
   margin: 0 auto;
