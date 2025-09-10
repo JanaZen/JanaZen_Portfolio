@@ -1,15 +1,145 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Test Lottie animace</title>
-  <!-- Lottie knihovna -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
-</head>
-<body style="display:flex; justify-content:center; align-items:center; height:100vh; background:#222;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jana Zen_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
 
-  <!-- Místo, kde se animace vykreslí -->
-  <div id="lottie-container" style="width:1200px; height:200px;"></div>
+</head>
+<body>
+
+<div class="container">
+<div id="content1">
+
+     
+         <h1>PORTFOLIO</h1>
+        <h6>JANA ZENDULKOVÁ</h6>
+        <a href="../CV/index.html" target="_blank" rel="noopener noreferrer" >MORE INFO ABOUT ME</a>
+        <h3>___________________________________________</h3>
+
+ <div>
+
+            <h2>Animation in After Effects</h2>    
+            
+            <div id="lottie-container"></div>
+            <!-- <div id="lottie-container2"></div>-->  
+            <iframe src="https://player.vimeo.com/video/1109052964?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+            <iframe src="https://player.vimeo.com/video/1109056868?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+
+ 
+
+
+
+         
+        </div>
+
+
+        <div>
+            <h3>___________________________________________</h3>
+
+            <h2>Designs in Figma</h2>     
+
+              <h4>Tracking App Proposal</h4>
+              <img src="images/fig01.jpg" alt=""><br></br>
+               <a href="https://www.figma.com/design/AXBme0koYYAoPUY9nGgAoY/Fitness_Tracker?t=Y13quxIsPmMv6QnE-1">SEE IN FIGMA</a>
+
+              <h4>Searching Eco Products App Proposal</h4>
+            <img src="images/fig02.jpg" alt=""><br></br>
+            <a href="https://www.figma.com/design/MBIBn1HDanxgDJ26zHSUvb/ECO-Friendly-Shopping-App?t=Y13quxIsPmMv6QnE-1">SEE IN FIGMA</a>
+
+            <h4>Ticket Booking System Proposal</h4>
+            <img src="images/fig03.jpg" alt=""> <br></br>
+             <a href="https://www.figma.com/design/qRZvoa67w8ZkMoTRwwoFo6/Banners?node-id=0-1&m=dev&t=Y13quxIsPmMv6QnE-1">SEE IN FIGMA</a>
+            
+            
+         
+        </div>
+
+
+        <div>
+<h3>___________________________________________</h3>
+            <h2>Fantasy Art in Adobe Photoshop</h2>     
+
+            <img src="images/LIGHTING_CREATURE_RED.jpg" alt="">
+            <img src="images/LIGHTING_CREATURE_ORANGE.jpg" alt="">
+            <img src="images/LIGHTING_CREATURE_BLACK.jpg" alt="">
+            <img src="images/BLACK_PONY.jpg" alt="">
+            <img src="images/mushroom_warrior.jpg" alt="">
+         
+        </div>
+        
+        <div>
+            <h3>___________________________________________</h3>
+
+            <h2>Fan Art in Adobe Photoshop</h2>     
+
+            <img src="images/fanart01.jpg" alt="">
+            <img src="images/fanart02.jpg" alt="">
+            <img src="images/fanart03.jpg" alt="">
+         
+         
+        </div>
+
+
+                <div>
+                    <h3>___________________________________________</h3>
+
+            <h2>Designs in Adobe Photoshop</h2>     
+
+            <img src="images/des00.jpg" alt="">
+            <img src="images/des01.jpg" alt="">
+            <img src="images/des02.jpg" alt="">
+         
+         
+        </div>
+
+
+                        <div>
+                            <h3>___________________________________________</h3>
+
+            <h2>Speedpainting / Concept Art in Adobe Photoshop</h2>     
+
+            <img src="images/speed01.jpg" alt="">
+            <img src="images/speed02.jpg" alt="">
+           
+         
+         
+        </div>
+
+
+        <div>
+            <h3>___________________________________________</h3>
+         
+          <h2>Arma2 - 2D textures, effects maps, makrotextures</h2>     
+
+            <img src="images/arma01.jpg" alt="">
+            <img src="images/arma02.jpg" alt="">
+            <img src="images/arma03.jpg" alt="">
+            <img src="images/arma04.jpg" alt="">
+           
+         
+         
+        </div>
+
+
+        <div>
+
+    <a href="../index.html" target="_blank" rel="noopener noreferrer" >BACK</a>
+</div>
+        
+
+</div>
+
+<footer>
+<div class="janazen">
+    <h5>JanaZen 2025</h5>
+</div>
+
+</footer>
 
   <script>
     lottie.loadAnimation({
@@ -21,5 +151,15 @@
     });
   </script>
 
+    <script>
+    lottie.loadAnimation({
+      container: document.getElementById('lottie-container2'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'dioda.json' // název tvého JSON souboru
+    });
+  </script>
+    
 </body>
 </html>
