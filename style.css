@@ -216,14 +216,14 @@ video {
 }
 
 #lottie-container {
-  width: 640px;
+  width: 480px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
 #lottie-container2 {
-  width: 640px;
+  width: 480px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -238,14 +238,14 @@ video {
 
     iframe {
 
-        width: 640px;
+        width: 480px;
         height: auto;
 
  }
 
  video {
 
-      width: 640px;            
+      width: 480px;            
       max-width: 100%;          
    
     }
@@ -302,7 +302,7 @@ video {
 
 video {
 
-      width: 550px;            
+      width: 400px;            
       max-width: 100%;          
    
     }
