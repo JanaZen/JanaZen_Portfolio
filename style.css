@@ -41,6 +41,7 @@ video {
       max-width: 100%;          
    
     }
+
    
 
 
@@ -292,6 +293,14 @@ video {
    
     }
 
+
+    
+    #vimeo {
+
+    width: 400px;
+        
+    }
+
     #content1 {
         padding: var(--main-padding);
     }
@@ -341,6 +350,12 @@ video {
    
     }
 
+    
+    #vimeo {
+
+    width: 320px;
+        
+    }
 
 
 #content1 {
