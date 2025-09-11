@@ -223,7 +223,7 @@ video {
 
 iframe {
     width: 500px;
-    height: auto;
+    height: 281px;
   }
 
 #lottie-container {
@@ -282,12 +282,12 @@ iframe {
     }
 
     iframe {
-    width: 350px;
-    height: 197px; /* stejné jako nahoře */
+    width: 400px;
+    height: 225px;
   }
 
 
-    #lottie-container {
+  #lottie-container {
   width: 350px;
   height: auto;
   display: block;
@@ -301,21 +301,11 @@ iframe {
   margin: 0 auto;
 }
     
-
-
 video {
 
       width: 400px;            
       max-width: 100%;          
    
-    }
-
-
-    
-    iframe {
-
-    width: 400px;
-        
     }
 
     #content1 {
