@@ -264,21 +264,26 @@ video {
 
 
     img {
-        width: 360px;
+        width: 350px;
         height: auto;
         
     }
 
+    iframe {
+    width: 350px;
+    height: 197px; /* stejné jako nahoře */
+  }
+
 
     #lottie-container {
-  width: 400px;
+  width: 350px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
 #lottie-container2 {
-  width: 400px;
+  width: 350px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -295,7 +300,7 @@ video {
 
 
     
-    #vimeo {
+    iframe {
 
     width: 400px;
         
@@ -329,6 +334,12 @@ video {
     }
 
 
+    iframe {
+    width: 320px;
+    height: 197px; /* zachová poměr 16:9 */
+  }
+
+
     #lottie-container {
   width: 320px;
   height: auto;
@@ -348,13 +359,6 @@ video {
       width: 320px;            
       max-width: 100%;          
    
-    }
-
-    
-    #vimeo {
-
-    width: 320px;
-        
     }
 
 
