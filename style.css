@@ -35,6 +35,16 @@ body {
   margin: 0 auto;
 }
 
+video {
+
+      width: 700px;            
+      max-width: 100%;          
+   
+    }
+
+   
+   
+
 
 #content1 {
     width: 100%;
