@@ -214,15 +214,21 @@ video {
     align-items: center;
 }
 
+
+iframe {
+    width: 500px;
+    height: auto;
+  }
+
 #lottie-container {
-  width: 480px;
+  width: 500px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
 #lottie-container2 {
-  width: 480px;
+  width: 500px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -237,7 +243,7 @@ video {
 
  video {
 
-      width: 480px;            
+      width: 500px;            
       max-width: 100%;          
    
     }
