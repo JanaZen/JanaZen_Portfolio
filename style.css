@@ -37,7 +37,7 @@ body {
 
 video {
 
-      width: 700px;            
+      width: 800px;            
       max-width: 100%;          
    
     }
@@ -190,7 +190,7 @@ a:hover {
 
 video {
 
-      width: 650px;            
+      width: 750px;            
       max-width: 100%;          
    
     }
@@ -216,14 +216,14 @@ video {
 }
 
 #lottie-container {
-  width: 600px;
+  width: 640px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
 #lottie-container2 {
-  width: 600px;
+  width: 640px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -241,8 +241,13 @@ video {
         width: 640px;
         height: auto;
 
+ }
 
+ video {
 
+      width: 640px;            
+      max-width: 100%;          
+   
     }
     
     #content1 {
@@ -346,7 +351,7 @@ video {
 
 video {
 
-      width: 350px;            
+      width: 320px;            
       max-width: 100%;          
    
     }
@@ -354,7 +359,7 @@ video {
 
     iframe {
 
-        width: 300px;
+        width: 320px;
         height: auto;
     }
 
