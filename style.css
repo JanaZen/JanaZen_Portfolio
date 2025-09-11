@@ -172,6 +172,12 @@ a:hover {
         
     }
 
+
+    iframe {
+    width: 750px;
+    height: auto;
+  }
+
     #lottie-container {
   width: 650px;
   height: auto;
