@@ -43,6 +43,20 @@ video {
     }
 
    
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  padding-top: 56.25%; /* 16:9 poměr stran */
+}
+
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
    
 
 
@@ -195,13 +209,6 @@ video {
    
     }
 
-        iframe {
-
-        width: 650px;
-        height: auto;
-
- }
-
     
     #content1 {
         padding: var(--main-padding);
@@ -243,13 +250,6 @@ video {
         
     }
 
-    iframe {
-
-        width: 800px;
-        height: auto;
-
- }
-
  video {
 
       width: 480px;            
@@ -282,12 +282,6 @@ video {
         width: 360px;
         height: auto;
         
-    }
-
-    iframe {
-
-        width: 600px;
-        height: auto;
     }
 
 
@@ -363,12 +357,6 @@ video {
    
     }
 
-
-    iframe {
-
-        width: 320px;
-        height: auto;
-    }
 
 
 #content1 {
