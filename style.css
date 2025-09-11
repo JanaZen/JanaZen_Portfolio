@@ -190,10 +190,17 @@ a:hover {
 
 video {
 
-      width: 750px;            
+      width: 650px;            
       max-width: 100%;          
    
     }
+
+        iframe {
+
+        width: 650px;
+        height: auto;
+
+ }
 
     
     #content1 {
@@ -279,7 +286,7 @@ video {
 
     iframe {
 
-        width: 360px;
+        width: 400px;
         height: auto;
     }
 
