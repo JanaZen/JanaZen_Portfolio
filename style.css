@@ -35,6 +35,13 @@ body {
   margin: 0 auto;
 }
 
+#lottie-container3 {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 video {
 
       width: 800px;            
@@ -145,6 +152,7 @@ a {
         font-weight: 200;
         color:#F26419;
         text-decoration-line: none;
+        margin-top: 10px;
 }
 
 a:hover {
@@ -186,6 +194,13 @@ a:hover {
 }
 
 #lottie-container2 {
+  width: 650px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container3 {
   width: 650px;
   height: auto;
   display: block;
@@ -234,6 +249,13 @@ iframe {
 }
 
 #lottie-container2 {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container3 {
   width: 500px;
   height: auto;
   display: block;
@@ -301,6 +323,14 @@ iframe {
   margin: 0 auto;
 }
     
+#lottie-container3 {
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
 video {
 
       width: 400px;            
@@ -351,6 +381,14 @@ video {
 
 #lottie-container2 {
   width: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#lottie-container3 {
+  width: 320px;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
