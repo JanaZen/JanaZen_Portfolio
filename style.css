@@ -21,6 +21,25 @@ body {
     align-items: center;
 }
 
+
+  .links-row {
+    display: flex;
+    justify-content: center; /* centrovat odkazy horizontálně */
+    gap: 10px; /* mezera mezi odkazy */
+    margin-bottom: 0px; /* mezera pod řádkem odkazů */
+}
+
+.links-row a {
+    font-size: 37px;
+    color: #F26419;
+    text-decoration: none;
+}
+
+.links-row a:hover {
+    color: #ff00e1;
+}
+
+
 #lottie-container {
   width: 700px;
   height: auto;
@@ -441,23 +460,6 @@ video {
 #content1 {
         padding: var(--main-padding);
     }
-
-  .links-row {
-    display: flex;
-    justify-content: center; /* centrovat odkazy horizontálně */
-    gap: 20px; /* mezera mezi odkazy */
-    margin-bottom: 10px; /* mezera pod řádkem odkazů */
-}
-
-.links-row a {
-    font-size: 20px;
-    color: #F26419;
-    text-decoration: none;
-}
-
-.links-row a:hover {
-    color: #ff00e1;
-}
 
 
 
