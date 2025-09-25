@@ -441,6 +441,26 @@ video {
 #content1 {
         padding: var(--main-padding);
     }
+
+  .links-row {
+    display: flex;
+    justify-content: center; /* centrovat odkazy horizontálně */
+    gap: 20px; /* mezera mezi odkazy */
+    margin-bottom: 10px; /* mezera pod řádkem odkazů */
+}
+
+.links-row a {
+    font-size: 20px;
+    color: #F26419;
+    text-decoration: none;
+}
+
+.links-row a:hover {
+    color: #ff00e1;
+}
+
+
+
     footer {
         padding: var(--main-padding);
         font-size: 0.8em; /* menší text ve footru na mobilech */
