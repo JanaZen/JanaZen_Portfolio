@@ -1,0 +1,474 @@
+:root {
+    --main-radius: 5px;
+    --main-padding: 5px;
+}
+
+body {
+    background: linear-gradient(#63577F, #F26419, #63577F);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    align-items: center;
+}
+
+#lottie-container {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container2 {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container3 {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+video {
+
+      width: 700px;            
+      max-width: 100%;          
+   
+    }
+
+
+    img {
+
+width: 700px;
+
+}
+   
+
+
+#content1 {
+    width: 100%;
+    padding-top: var(--main-padding);
+    border-radius: var(--main-radius);
+    background-color: #121a1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; /* center text uvnitř obsahu */
+}
+
+
+#content1 a {
+  display: inline-block; 
+  margin-bottom: 4px;   /* jen malá mezera pod odkazem */
+}
+
+#content1 h1 {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+#content1 h6 {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+#content1 h3 {
+  margin-top: 0;
+  margin-bottom: 15px; /* čára má trochu větší prostor pod sebou */
+}
+
+footer {
+    width: 100%;
+    height: 1rem;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    background-color: #121a1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px; /* mezera mezi obsahem a footerem */
+    text-align: center; /* centrovat text v footeru */
+}
+
+
+
+h1 {
+
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 43px;
+        font-weight: 650;
+        color: #a5a6a2;
+        margin-bottom: 5px;
+        
+
+        }
+
+        h6 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 27px;
+        font-weight: 500;
+        color: #a5a6a2;
+        margin-top: 0;
+       
+}
+
+h2 {
+
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 24px;
+        font-weight: 600;
+        color: #a5a6a2;
+        
+
+}
+
+h3 {
+
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 24px;
+        font-weight: 400;
+        color: #a5a6a2;
+        
+
+}
+
+
+h4 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 20px;
+        font-weight: 200;
+        color: #a5a6a2;
+}
+
+
+
+h5 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 12px;
+        font-weight: 500;
+        color: #a5a6a2;
+}
+
+
+a {
+
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 22px;
+        font-weight: 200;
+        color:#F26419;
+        text-decoration-line: none;
+        margin-top: 10px;
+}
+
+a:hover {
+
+   color: #ff00e1;
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 890px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    align-items: center;
+}
+
+
+    img {
+        width: 750px;
+        height: auto;
+        
+    }
+
+
+    iframe {
+    width: 750px;
+    height: 422px;
+  }
+
+    #lottie-container {
+  width: 650px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container2 {
+  width: 650px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container3 {
+  width: 650px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+video {
+
+      width: 650px;            
+      max-width: 100%;          
+   
+    }
+
+    
+    #content1 {
+        padding: var(--main-padding);
+    }
+    footer {
+        padding: var(--main-padding);
+        font-size: 0.8em; /* menší text ve footru na mobilech */
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 600px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    align-items: center;
+}
+
+
+iframe {
+    width: 500px;
+    height: 281px;
+  }
+
+#lottie-container {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container2 {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container3 {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+    img {
+        width: 500px;
+        height: auto;
+        
+    }
+
+ video {
+
+      width: 500px;            
+      max-width: 100%;          
+   
+    }
+    
+    #content1 {
+        padding: var(--main-padding);
+    }
+    footer {
+        padding: var(--main-padding);
+        font-size: 0.8em; /* menší text ve footru na mobilech */
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 450px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    align-items: center;
+}
+
+
+    img {
+        width: 350px;
+        height: auto;
+        
+    }
+
+    iframe {
+    width: 400px;
+    height: 225px;
+  }
+
+
+  #lottie-container {
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container2 {
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+    
+#lottie-container3 {
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+video {
+
+      width: 400px;            
+      max-width: 100%;          
+   
+    }
+
+    #content1 {
+        padding: var(--main-padding);
+    }
+
+
+
+h2 {
+
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 18px;
+        font-weight: 600;
+        color: #a5a6a2;
+        
+
+}
+
+    footer {
+        padding: var(--main-padding);
+        font-size: 0.8em; /* menší text ve footru na mobilech */
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 345px; /* nebo jakákoliv maximální šířka, pokud chceš */
+    align-items: center;
+}
+
+
+    img {
+        width: 300px;
+        height: auto;
+        
+    }
+
+
+    iframe {
+    width: 320px;
+    height: 197px; /* zachová poměr 16:9 */
+  }
+
+
+    #lottie-container {
+  width: 320px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#lottie-container2 {
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#lottie-container3 {
+  width: 320px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+video {
+
+      width: 320px;            
+      max-width: 100%;          
+   
+    }
+
+
+#content1 {
+        padding: var(--main-padding);
+    }
+    footer {
+        padding: var(--main-padding);
+        font-size: 0.8em; /* menší text ve footru na mobilech */
+    }
+
+
+h3 {
+
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 10px;
+        font-weight: 200;
+        color: #a5a6a2;
+        
+
+}
+
+
+h2 {
+
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         font-size: 16px;
+        font-weight: 600;
+        color: #a5a6a2;
+        
+
+}
+
+
+
+
+}
